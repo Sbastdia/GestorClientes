@@ -1,10 +1,10 @@
 
 import csv
 import copy
-from gestor import config
-from gestor import helpers
+import config
+import helpers
 import unittest
-from gestor import database as db
+import database as db
 
 
 class TestDatabase(unittest.TestCase):

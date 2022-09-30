@@ -1,6 +1,6 @@
 import os
-from gestor import helpers
-from gestor import database as db
+import helpers
+import database as db
 
 
 def iniciar():
