@@ -1,6 +1,5 @@
 from gestor.helpers import *
 from gestor.database import *
-
 from tkinter import *
 from tkinter import ttk
 from tkinter.messagebox import askokcancel, WARNING
