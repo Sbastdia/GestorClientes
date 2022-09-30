@@ -1,8 +1,8 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, constr, validator
-from gestor import database as db
-from gestor import helpers
+from gestor.database import *
+from gestor.helpers import *
 
 
 headers = {"content-type": "charset=utf-8"}
