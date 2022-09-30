@@ -1,5 +1,6 @@
 import csv
 import config
+import database as db
 
 
 class Cliente:
